@@ -29,20 +29,27 @@ header li {
 }
 
 ul {
-	list-style: square;
-	padding-left: 1em;
+	list-style: none;
+	padding-left: 0;
 	margin: 0 1em;
+}
+
+li {
+	padding-bottom: 1em;
+}
+
+li ul {
+	color: #888;
+	margin: 0;
+	padding: 0;
+}
+
+li li {
+	padding: 0;
 }
 
 p {
-	margin: 0 1em;
-}
-
-#portrait {
-	width:120px;
-	height:160px;
-	margin-right:1em;
-	float:left;
+	margin: 1em;
 }
 
 #link-wrapper {
