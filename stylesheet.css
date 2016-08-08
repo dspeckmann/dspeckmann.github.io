@@ -1,13 +1,12 @@
 body {
 	max-width: 600px;
-	margin: auto;
+	margin: 3em auto;
 	font-family:'Open Sans', Arial, sans-serif;
 	font-size:0.95em;
 	background:#fffefa;
 }
 
 h1, h2 {
-	/*text-align: center;*/
 	font-family: 'Roboto Slab', Georgia, Times, serif;
 	font-weight: normal;
 }
@@ -50,22 +49,6 @@ li li {
 
 p {
 	margin: 1em;
-}
-
-#link-wrapper {
-	/*text-align: center;*/
-	/*margin: 1em auto;*/
-	list-style:none;
-}
-
-#link-wrapper a {
-	display: inline-block;
-	padding: 5px 20px;
-	margin-top: 1em;
-	background: #5b9dff;
-	border-radius: 3px;
-	color:white;
-	text-decoration: none;
 }
 
 #link-wrapper a:hover, a:focus {
