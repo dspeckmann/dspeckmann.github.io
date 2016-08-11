@@ -26,7 +26,7 @@ a:hover, a:focus {
 
 #wrapper {
 	width:90%;
-	min-width:600px;
+	min-width:500px;
 	max-width:1000px;
 	margin:80px auto 0 auto;
 }
@@ -59,35 +59,29 @@ a:hover, a:focus {
 	color:#bbbbbb;
 }
 
-@media screen and (max-width: 600px), screen and (max-device-width:500px) {
-	a{
+@media screen and (max-width: 500px) {
+	a {
 		margin:0 10px 0 0;
 	}
 	#wrapper {
-		width:calc(100% - 80px);
+		width:calc(100% - 20px);
 		min-width:0;
-		margin:40px;
+		margin:10px;
 	}
 
 	#expose {
 		float:none;
 		width:calc(100% - 40px);
-		margin:10px;
+		margin:10px 10px 0 10px;
 		text-align:left;
 	}
 
 	#skills {
-		margin:10px;
+		margin:0 10px 10px 10px;
 		width:calc(100% - 40px);
 	}
 
 	#skills ul {
 		padding:0;
-	}
-}
-
-@media screen and (max-device-width:500px) {
-	h1 {
-		font-size:100px;
 	}
 }
