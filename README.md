@@ -1,2 +1,2 @@
-# danny.speckmann.me
+# dspeckmann.de
 My personal portfolio website.
