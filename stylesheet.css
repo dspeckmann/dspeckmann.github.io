@@ -51,11 +51,12 @@ a:hover, a:focus {
 	padding:10px;
 }
 
-#skills ul ul {
-	padding:10px;
+#skills ul li {
+	padding-bottom:10px;
 }
 
-#skills ul ul {
+.details {
+	padding:10px;
 	color:#bbbbbb;
 }
 
