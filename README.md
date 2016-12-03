@@ -1,2 +1,2 @@
 # dspeckmann.de
-My personal portfolio website.
+My personal portfolio website served through GitHub Pages.
