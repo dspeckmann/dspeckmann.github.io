@@ -3,7 +3,7 @@ body {
 	margin:0;
 	padding:0;
 	background:#222222;
-	color:#fafafa;
+	color:#fdfdfd;
 }
 
 h1 {
@@ -45,13 +45,9 @@ a:hover, a:focus {
 	padding:10px;
 }
 
-/* dt:first-of-type, dd:first-of-type {
-	font-weight:bolder;
-} */
-
 dd {
 	margin:10px 10px 10px 20px;
-	color:#bbbbbb;
+	color:#e6e6e6;
 }
 
 @media screen and (max-width: 500px) {
